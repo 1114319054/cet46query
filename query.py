@@ -3,12 +3,9 @@ import random
 from urllib.request import urlretrieve
 import os
 from bs4 import BeautifulSoup
-from wand.image import Image
 from PIL import Image as PI
 import pyocr
 import pyocr.builders
-import io
-import sys
 import pytesseract
 
 tools = pyocr.get_available_tools()
